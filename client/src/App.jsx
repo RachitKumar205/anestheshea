@@ -53,7 +53,7 @@ export const App = () => {
 							flexDirection: "column",
 							marginTop: "230px",
 						}}>
-						<a href="http://localhost:8888/login">
+						<a href="http://localhost:8080/login">
 							<Login variant="success">Log in with Spotify</Login>
 						</a>
 						<h7
