@@ -95,7 +95,7 @@ app.get("/callback", function (req, res) {
 				});
 				
 				res.redirect(
-					"http://localhost:3000/#" +
+					"https://anestheshea.azurewebsites.net/#" +
 						querystring.stringify({
 							access_token: access_token,
 							refresh_token: refresh_token,
