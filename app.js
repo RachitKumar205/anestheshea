@@ -5,7 +5,7 @@ var cors = require("cors");
 var querystring = require("querystring");
 var cookieParser = require("cookie-parser");
 
-var port = process.env.port || 8888;
+var port = process.env.port || 8080;
 var client_id = "687f3fa2492f48ee815e5ca3db12b8c6"; 
 var client_secret = "127565d60ab54ea1896978aaf793bf2e"; 
 var redirect_uri = "http://localhost:8888/callback"; 
